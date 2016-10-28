@@ -101,6 +101,8 @@
 
 <!-- Vendor -->
   <project name="vendor_citrus" path="vendor/citrus" remote="ctr" revision="n" />
+  <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
+  <project name="vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" revision="ctr"/>
   <remove-project name="platform/vendor/qcom-opensource/dpm" />
   <project name="vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" remote="ctr"/>
 <!-- End of Citrus-CAF Additions -->
@@ -111,6 +113,8 @@
   <remove-project name="device/qcom/sepolicy" />
   <project name="CyanogenMod/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="cm-14.0" />
   <project name="CyanogenMod/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="cm-14.0" />
+  <remove-project name="platform/external/f2fs-tools" />
+  <project name="CyanogenMod/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="cm-14.0"/>
   <project name="CyanogenMod/android_external_ffmpeg" path="external/ffmpeg" remote="github" revision="cm-14.0" />
   <remove-project name="platform/external/flac" />
   <project name="CyanogenMod/android_external_flac" path="external/flac" remote="github" revision="cm-14.0"/>
@@ -126,12 +130,13 @@
   <remove-project name="platform/hardware/qcom/media" />
   <project name="hardware_qcom_media" path="hardware/qcom/media" remote="ctr"/>
 
-  <!-- Masquerade -->
+<!-- Masquerade -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
 
-  <!-- Sync manifest repo -->
+<!-- Sync manifest repo -->
   <project name="manifest" path="manifest" remote="ctr"/>
 
+<!-- Remove this bloats -->
   <remove-project name="device/generic/arm64"/>
   <remove-project name="device/generic/armv7-a-neon"/>
   <remove-project name="device/generic/common"/>
@@ -148,6 +153,8 @@
   <remove-project name="kernel/lk"/>
   <remove-project name="platform/hardware/qcom/camera"/>
   <remove-project name="platform/hardware/qcom/gps"/>
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+  <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc"/>
   <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests"/>
 	<remove-project name="platform/vendor/qcom-opensource/wlan/prima"/>
 	<remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
