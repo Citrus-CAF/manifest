@@ -9,7 +9,6 @@
            sync-j="4" />
 
  <!-- Begin CODEAURORA -->
- <project groups="pdk-cw-fs,pdk-fs" name="device/common"/>
  <project name="device/qcom/common">
    <copyfile dest="build.sh" src="build.sh"/>
    <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
@@ -482,7 +481,6 @@
  <project name="toolchain/binutils"/>
 <!-- End of CODEAURORA -->
 
-  <!-- Include Device Specific repo's -->
-  <include name="citrus-caf.xml" />
-
+<!-- Include Device Specific repo's -->
+ <include name="citrus-caf.xml" />
 </manifest>
