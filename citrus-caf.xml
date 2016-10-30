@@ -121,6 +121,9 @@
   <project name="CyanogenMod/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-14.0"/>
   <remove-project name="platform/external/zlib"  />
   <project name="CyanogenMod/android_external_zlib" path="external/zlib" remote="github" revision="cm-14.0" />
+  <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-14.0"/>
+  <remove-project  name="platform/packages/apps/FMRadio" />
+  <project name="CyanogenMod/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="cm-14.0" />
 
 <!--  HALS -->
   <remove-project name="platform/hardware/qcom/audio" />
@@ -153,8 +156,8 @@
   <remove-project name="kernel/lk"/>
   <remove-project name="platform/hardware/qcom/camera"/>
   <remove-project name="platform/hardware/qcom/gps"/>
-  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc"/>
+  <remove-project name="platform/vendor/qcom-opensource/fm" />
   <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests"/>
 	<remove-project name="platform/vendor/qcom-opensource/wlan/prima"/>
 	<remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
