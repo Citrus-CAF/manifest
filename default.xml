@@ -252,7 +252,6 @@
  <project groups="pdk" name="platform/external/ppp" path="external/ppp"/>
  <project groups="pdk" name="platform/external/proguard" path="external/proguard"/>
  <project groups="pdk" name="platform/external/protobuf" path="external/protobuf"/>
- <project name="platform/external/qrngd" path="external/qrngd"/>
  <project groups="pdk" name="platform/external/regex-re2" path="external/regex-re2"/>
  <project groups="pdk" name="platform/external/replicaisland" path="external/replicaisland"/>
  <project groups="pdk" name="platform/external/rmi4utils" path="external/rmi4utils"/>
@@ -498,7 +497,6 @@
  <project groups="qcom" name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth"/>
  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr"/>
  <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices"/>
- <project name="platform/vendor/qcom-opensource/display-frameworks" path="vendor/qcom/opensource/display-frameworks"/>
  <project name="platform/vendor/qcom-opensource/dpm" path="vendor/qcom/opensource/dpm"/>
  <project name="platform/vendor/qcom-opensource/fm" path="vendor/qcom/opensource/fm"/>
  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="vendor/qcom/opensource/kernel-tests"/>
