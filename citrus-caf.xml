@@ -118,14 +118,6 @@
   <remove-project name="platform/external/zlib"  />
   <project name="CyanogenMod/android_external_zlib" path="external/zlib" remote="github" revision="cm-14.0" />
 
-<!--  HALS -->
-  <remove-project name="platform/hardware/qcom/audio" />
-  <project name="hardware_qcom_audio" path="hardware/qcom/audio" remote="ctr"/>
-  <remove-project name="platform/hardware/qcom/display" />
-  <project name="hardware_qcom_display" path="hardware/qcom/display" remote="ctr"/>
-  <remove-project name="platform/hardware/qcom/media" />
-  <project name="hardware_qcom_media" path="hardware/qcom/media" remote="ctr"/>
-
   <!-- Masquerade -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
 
