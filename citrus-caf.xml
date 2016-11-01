@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="ctr"
-           fetch="https://github.com/Citrus-CAF"
-           revision="n-8952" />
-
-  <remote  name="github"
-           fetch="https://github.com/" />
-
 <!-- Begin Citrus-CAF Additions -->
-  <remove-project name="platform/build" revision="n-caf" />
+  <remove-project name="platform/build" />
   <project path="build" name="build" remote="ctr" revision="n-caf" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
