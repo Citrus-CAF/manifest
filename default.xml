@@ -344,12 +344,9 @@
  <project groups="nvensense,pdk" name="platform/hardware/invensense" path="hardware/invensense"/>
  <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware"/>
  <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
- <project groups="qcom,qcom_audio" name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
  <project groups="qcom" name="platform/hardware/qcom/bt" path="hardware/qcom/bt"/>
  <project groups="qcom,default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
- <project groups="qcom,qcom_display" name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
  <project groups="qcom,qcom_gps" name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
- <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
  <project groups="qcom_wlan" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
  <project groups="pdk" name="platform/hardware/ril" path="hardware/ril"/>
  <project groups="pdk" name="platform/libcore" path="libcore"/>
