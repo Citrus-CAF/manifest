@@ -221,7 +221,6 @@
  <project groups="pdk" name="platform/external/mksh" path="external/mksh"/>
  <project name="platform/external/mm-dash" path="external/mm-dash"/>
  <project groups="pdk" name="platform/external/mmc-utils" path="external/mmc-utils"/>
- <project groups="pdk-cw-fs" name="platform/external/mobicore" path="external/mobicore"/>
  <project groups="pdk" name="platform/external/mockftpserver" path="external/mockftpserver"/>
  <project groups="pdk" name="platform/external/mockito" path="external/mockito"/>
  <project groups="pdk" name="platform/external/mockwebserver" path="external/mockwebserver"/>
