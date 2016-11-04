@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="caf"
-           fetch="git://codeaurora.org/quic/la"
-           review="codeaurora.org" />
-  <default remote="caf"
-           revision="LA.BR.1.3.6_rb1.7"
-           sync-j="4" />
-
-  <remote  name="ctr"
-           fetch="https://github.com/Citrus-CAF"
-           revision="n-8952" />
-
-  <remote  name="github"
-           fetch="https://github.com/" />
-
  <!-- Begin CODEAURORA -->
   <project groups="pdk-cw-fs,pdk-fs" name="device/common"/>
   <project groups="pdk" name="device/generic/arm64"/>
@@ -518,8 +504,5 @@
   <project name="platform/vendor/qcom/tellurium_64" path="device/qcom/msm8952_64"/>
   <project name="toolchain/binutils"/>
 <!-- End of CODEAURORA -->
-
-  <!-- Include Device Specific repo's -->
-  <include name="citrus-caf.xml" />
 
 </manifest>
