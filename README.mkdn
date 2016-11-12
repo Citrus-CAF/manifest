@@ -27,7 +27,7 @@ Compiling the source!
 ---------------------
 	. build/envsetup.sh
 	lunch citrus_$device-userdebug
-	mka bacon
+	mka lemonade -j#
 
 Don't worry about the name! Yeah, we're not as sour as we sound! That gadget, over there, right in your arms, might die tasting citrus xD
 .
