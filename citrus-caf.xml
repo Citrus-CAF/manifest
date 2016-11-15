@@ -5,7 +5,7 @@
            fetch="git://codeaurora.org/quic/la"
            review="codeaurora.org" />
   <default remote="caf"
-           revision="LA.BR.1.3.6_rb1.7"
+           revision="LA.BR.1.3.6_rb1.8"
            sync-j="4" />
 
   <remote  name="ctr"
@@ -31,13 +31,13 @@
   <project name="bionic" path="bionic" remote="ctr"/>
   <remove-project name="platform/development" />
   <project name="development" path="development" remote="ctr"/>
+  <remove-project name="device/qcom/common" />
+  <project name="device_qcom_common" path="device/qcom/common" remote="ctr" />
 
 <!-- External -->
   <project name="external_DUtils" path="external/DUtils" remote="ctr" revision="n"/>
   <remove-project name="platform/external/e2fsprogs" />
   <project name="external_e2fsprogs" path="external/e2fsprogs" remote="ctr"/>
-  <remove-project name="platform/external/okhttp" />
-  <project name="external_okhttp" path="external/okhttp" remote="ctr"/>
   <remove-project name="platform/external/skia" />
   <project name="external_skia" path="external/skia" remote="ctr"/>
   <remove-project name="platform/external/wpa_supplicant_8" />
@@ -113,22 +113,18 @@
   <project name="vendor_citrus" path="vendor/citrus" remote="ctr" revision="n" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <project name="vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="ctr"/>
-  <remove-project name="platform/vendor/qcom-opensource/dpm" />
-  <project name="vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" remote="ctr"/>
+  <remove-project name="platform/vendor/qcom/tellurium_64" />
+  <project name="device_qcom_msm8952_64" path="device/qcom/msm8952_64" remote="ctr" />
 <!-- End of Citrus-CAF Additions -->
 
 <!-- Include these repo's for better Compatibility -->
-  <remove-project name="device/qcom/common" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.0" />
   <remove-project name="device/qcom/sepolicy" />
   <project name="CyanogenMod/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="cm-14.0" />
   <project name="CyanogenMod/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="cm-14.0" />
   <remove-project name="platform/external/f2fs-tools" />
   <project name="CyanogenMod/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="cm-14.0"/>
-  <project name="CyanogenMod/android_external_ffmpeg" path="external/ffmpeg" remote="github" revision="cm-14.0" />
   <remove-project name="platform/external/flac" />
   <project name="CyanogenMod/android_external_flac" path="external/flac" remote="github" revision="cm-14.0"/>
-  <project name="CyanogenMod/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-14.0"/>
   <remove-project name="platform/external/zlib"  />
   <project name="CyanogenMod/android_external_zlib" path="external/zlib" remote="github" revision="cm-14.0" />
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-14.0"/>
@@ -163,7 +159,6 @@
   <remove-project name="device/generic/x86_64"/>
   <remove-project name="device/sample"/>
   <remove-project name="kernel/msm-3.10"/>
-  <remove-project name="kernel/lk"/>
   <remove-project name="platform/hardware/qcom/camera"/>
   <remove-project name="platform/hardware/qcom/gps"/>
   <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc"/>
