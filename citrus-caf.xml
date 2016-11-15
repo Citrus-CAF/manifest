@@ -33,13 +33,23 @@
   <project name="development" path="development" remote="ctr"/>
   <remove-project name="device/qcom/common" />
   <project name="device_qcom_common" path="device/qcom/common" remote="ctr" />
+  <remove-project name="platform/vendor/qcom/tellurium_64" />
+  <project name="device_qcom_msm8952_64" path="device/qcom/msm8952_64" remote="ctr" />
 
 <!-- External -->
   <project name="external_DUtils" path="external/DUtils" remote="ctr" revision="n"/>
   <remove-project name="platform/external/e2fsprogs" />
   <project name="external_e2fsprogs" path="external/e2fsprogs" remote="ctr"/>
+  <remove-project name="platform/external/jemalloc" />
+  <project path="external/jemalloc" name="AOSPA/android_external_jemalloc" remote="github" revision="nougat-caf" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="github" revision="nougat-caf" />
+  <remove-project name="platform/external/libpng" />
+  <project path="external/libpng" name="AOSPA/android_external_libpng" remote="github" revision="nougat-caf" />
   <remove-project name="platform/external/skia" />
   <project name="external_skia" path="external/skia" remote="ctr"/>
+  <remove-project name="platform/external/sqlite" />
+  <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="github" revision="nougat-caf" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="ctr"/>
 
@@ -113,8 +123,8 @@
   <project name="vendor_citrus" path="vendor/citrus" remote="ctr" revision="n" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <project name="vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="ctr"/>
-  <remove-project name="platform/vendor/qcom/tellurium_64" />
-  <project name="device_qcom_msm8952_64" path="device/qcom/msm8952_64" remote="ctr" />
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86"  path="vendor/qcom/sdclang-3.8/linux-x86" remote="github" revision="nougat-caf" />
+
 <!-- End of Citrus-CAF Additions -->
 
 <!-- Include these repo's for better Compatibility -->
