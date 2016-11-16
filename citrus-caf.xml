@@ -76,6 +76,7 @@
   <project name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="ctr" />
 
 <!-- Apps -->
+  <project name="packages_apps_AboutCitrus" path="packages/apps/AboutCitrus" remote="ctr"/> 
   <project name="packages_apps_CustomSquash" path="packages/apps/CustomSquash" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="ctr" />
