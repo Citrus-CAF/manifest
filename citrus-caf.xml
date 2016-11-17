@@ -26,8 +26,6 @@
   <project name="external_DUtils" path="external/DUtils" remote="ctr"/>
   <remove-project name="platform/external/e2fsprogs" />
   <project name="external_e2fsprogs" path="external/e2fsprogs" remote="ctr"/>
-  <remove-project name="platform/external/okhttp" />
-  <project name="external_okhttp" path="external/okhttp" remote="ctr"/>
   <remove-project name="platform/external/skia" />
   <project name="external_skia" path="external/skia" remote="ctr"/>
   <remove-project name="platform/external/wpa_supplicant_8" />
@@ -76,7 +74,7 @@
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="ctr" />
   <remove-project name="platform/packages/providers/MediaProvider" />
-  <project name="packages_providers_MediaProvider" path="packages/providers/NediaProvider" remote="ctr" />
+  <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="ctr" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <project name="packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="ctr" />
 
@@ -104,8 +102,6 @@
 
 <!-- Vendor -->
   <project name="vendor_citrus" path="vendor/citrus" remote="ctr" />
-  <remove-project name="platform/vendor/qcom-opensource/dpm" />
-  <project name="vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" remote="ctr"/>
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <project name="vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="ctr"/>
 <!-- End of Citrus-CAF Additions -->
