@@ -94,6 +94,10 @@
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" revision="n" />
 
+<!-- Prebuilts -->
+ <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+ <project name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="ctr" />
+	
 <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="ctr" />
