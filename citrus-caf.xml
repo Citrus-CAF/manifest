@@ -12,7 +12,9 @@
   <include name="codeaurora.xml" />
 
 <!-- Begin Citrus-CAF Additions -->
-  <remove-project name="platform/build" revision="n-caf" />
+  <remove-project name="platform/art" />
+  <project name="art" path="art" remote="ctr"/>
+  <remove-project name="platform/build" />
   <project path="build" name="build" remote="ctr" revision="n-caf" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
