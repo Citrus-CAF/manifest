@@ -8,6 +8,9 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <!-- repo's to sync from CODEAURORA -->
+  <include name="codeaurora.xml" />
+
 <!-- Begin Citrus-CAF Additions -->
   <remove-project name="platform/build" revision="n-caf" />
   <project path="build" name="build" remote="ctr" revision="n-caf" >
@@ -21,6 +24,8 @@
   <project name="bionic" path="bionic" remote="ctr"/>
   <remove-project name="platform/development" />
   <project name="development" path="development" remote="ctr"/>
+  <remove-project name="device/qcom/common" />
+  <project name="device_qcom_common" path="device/qcom/common" remote="ctr" />
 
 <!-- External -->
   <project name="external_DUtils" path="external/DUtils" remote="ctr"/>
@@ -70,6 +75,10 @@
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" />
 
+<!-- Prebuilts -->
+ <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+ <project name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="ctr" />
+
 <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="ctr" />
@@ -106,9 +115,18 @@
   <project name="vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="ctr"/>
 <!-- End of Citrus-CAF Additions -->
 
-<!-- Include these repo's for better Compatibility -->
-  <remove-project name="device/qcom/common" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.0" />
+<!-- AOSPA -->
+  <remove-project name="platform/external/jemalloc" />
+  <project path="external/jemalloc" name="AOSPA/android_external_jemalloc" remote="github" revision="nougat-caf" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="github" revision="nougat-caf" />
+  <remove-project name="platform/external/libpng" />
+  <project path="external/libpng" name="AOSPA/android_external_libpng" remote="github" revision="nougat-caf" />
+  <remove-project name="platform/external/sqlite" />
+  <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="github" revision="nougat-caf" />
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86"  path="vendor/qcom/sdclang-3.8/linux-x86" remote="github" revision="nougat-caf" />
+
+<!-- Cyanogenmod -->
   <remove-project name="device/qcom/sepolicy" />
   <project name="CyanogenMod/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="cm-14.0" />
   <project name="CyanogenMod/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="cm-14.0" />
@@ -144,7 +162,6 @@
   <remove-project name="device/generic/x86_64"/>
   <remove-project name="device/sample"/>
   <remove-project name="kernel/msm-3.10"/>
-  <remove-project name="kernel/lk"/>
   <remove-project name="platform/hardware/qcom/camera"/>
   <remove-project name="platform/hardware/qcom/gps"/>
   <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests"/>

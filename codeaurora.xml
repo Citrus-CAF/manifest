@@ -504,7 +504,4 @@
  <project name="toolchain/binutils"/>
 <!-- End of CODEAURORA -->
 
-  <!-- Include Device Specific repo's -->
-  <include name="citrus-caf.xml" />
-
 </manifest>
