@@ -352,7 +352,7 @@
   <project groups="generic_fs" name="platform/ndk" path="ndk"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Browser2" path="packages/apps/Browser2"/>
+  <project groups="pdk-fs" name="platform/packages/apps/Browser" path="packages/apps/Browser"/>
   <project name="platform/packages/apps/CMFileManager" path="packages/apps/CMFileManager"/>
   <project groups="pdk-fs" name="platform/packages/apps/Calculator" path="packages/apps/Calculator"/>
   <project groups="pdk-fs" name="platform/packages/apps/Calendar" path="packages/apps/Calendar"/>
