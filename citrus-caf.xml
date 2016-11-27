@@ -149,6 +149,7 @@
   <remove-project name="platform/external/zlib"  />
   <project name="CyanogenMod/android_external_zlib" path="external/zlib" remote="github" revision="cm-14.0" />
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-14.0"/>
+  <project name="CyanogenMod/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="cm-14.0" />
   <remove-project  name="platform/packages/apps/FMRadio" />
   <project name="CyanogenMod/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="cm-14.0" />
 
