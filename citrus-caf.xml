@@ -54,7 +54,9 @@
   <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="github" revision="nougat-caf" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="ctr"/>
-
+  <remove-project name="platform/external/zlib"  />
+  <project name="external_zlib" path="external/zlib" remote="ctr" />
+	
 <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
   <project name="frameworks_av" path="frameworks/av" remote="ctr"/>
@@ -146,8 +148,6 @@
   <remove-project name="platform/external/flac" />
   <project name="CyanogenMod/android_external_flac" path="external/flac" remote="github" revision="cm-14.0"/>
   <project name="CyanogenMod/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-14.0"/>
-  <remove-project name="platform/external/zlib"  />
-  <project name="CyanogenMod/android_external_zlib" path="external/zlib" remote="github" revision="cm-14.0" />
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-14.0"/>
   <project name="CyanogenMod/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="cm-14.0" />
   <remove-project  name="platform/packages/apps/FMRadio" />
