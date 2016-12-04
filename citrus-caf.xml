@@ -152,7 +152,7 @@
 
 
 <!-- Masquerade -->
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
 
 <!-- Sync manifest repo -->
   <project name="manifest" path="manifest" remote="ctr"/>
