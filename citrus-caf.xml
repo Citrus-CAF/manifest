@@ -13,7 +13,7 @@
            review="codeaurora.org" />
 
   <default remote="caf"
-           revision="refs/tags/LA.UM.5.6.r1-01600-89xx.0"
+           revision="refs/tags/LA.UM.5.6.r1-02100-89xx.0"
            sync-j="4" />
 
   <!-- repo's to sync from CODEAURORA -->
