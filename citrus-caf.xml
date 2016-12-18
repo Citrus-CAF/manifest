@@ -131,7 +131,7 @@
   <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="cm-14.0-caf-8916" />
 
   <!-- Masquerade -->
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
 
   <!-- Sync manifest repo -->
   <project name="manifest" path="manifest" remote="ctr"/>
