@@ -5,7 +5,7 @@
            fetch="git://codeaurora.org/quic/la"
            review="codeaurora.org" />
   <default remote="caf"
-           revision="LA.BR.1.3.6_rb1.9"
+           revision="LA.BR.1.3.6_rb1.11"
            sync-j="4" />
 
   <remote  name="ctr"
@@ -140,18 +140,18 @@
 
 <!-- Include these repo's for better Compatibility -->
   <remove-project name="device/qcom/sepolicy" />
-  <project name="CyanogenMod/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="cm-14.0" />
-  <project name="CyanogenMod/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="cm-14.0" />
+  <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="cm-14.1" />
   <remove-project name="platform/external/f2fs-tools" />
-  <project name="CyanogenMod/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="cm-14.0"/>
-  <project name="CyanogenMod/android_external_ffmpeg" path="external/ffmpeg" remote="github" revision="cm-14.0" />
+  <project name="LineageOS/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="cm-14.1"/>
+  <project name="LineageOS/android_external_ffmpeg" path="external/ffmpeg" remote="github" revision="cm-14.1" />
   <remove-project name="platform/external/flac" />
-  <project name="CyanogenMod/android_external_flac" path="external/flac" remote="github" revision="cm-14.0"/>
-  <project name="CyanogenMod/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-14.0"/>
-  <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-14.0"/>
-  <project name="CyanogenMod/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="cm-14.0" />
+  <project name="LineageOS/android_external_flac" path="external/flac" remote="github" revision="cm-14.1"/>
+  <project name="LineageOS/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-14.1"/>
+  <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-14.1"/>
+  <project name="LineageOS/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="cm-14.1" />
   <remove-project  name="platform/packages/apps/FMRadio" />
-  <project name="CyanogenMod/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="cm-14.0" />
+  <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="cm-14.1" />
 
 <!--  HALS -->
   <remove-project name="platform/hardware/qcom/audio" />
