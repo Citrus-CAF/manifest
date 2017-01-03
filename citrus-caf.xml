@@ -47,6 +47,8 @@
   <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="ctr"/>
   <remove-project name="platform/external/zlib"  />
   <project name="external_zlib" path="external/zlib" remote="ctr" />
+  <remove-project name="platform/external/jemalloc"  />
+  <project name="external_jemalloc" path="external/jemalloc" remote="ctr" />
 
 <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -122,8 +124,6 @@
 <!-- End of Citrus-CAF Additions -->
 
 <!-- AOSPA -->
-  <remove-project name="platform/external/jemalloc" />
-  <project path="external/jemalloc" name="AOSPA/android_external_jemalloc" remote="github" revision="nougat-caf" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="github" revision="nougat-caf" />
   <remove-project name="platform/external/libpng" />
