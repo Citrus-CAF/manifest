@@ -35,6 +35,8 @@
   <project name="development" path="development" remote="ctr" revision="n" />
   <remove-project name="device/qcom/common" />
   <project name="device_qcom_common" path="device/qcom/common" remote="ctr" revision="n" />
+  <remove-project name="platform/vendor/qcom/msm8916_32" />
+  <project name="device_qcom_msm8916_32" path="device/qcom/msm8916_32" remote="ctr" />
 
 <!-- External -->
   <project name="external_DUtils" path="external/DUtils" remote="ctr" revision="n" />
@@ -183,6 +185,7 @@
   <remove-project name="kernel/msm-3.10"/>
   <remove-project name="platform/hardware/qcom/camera"/>
   <remove-project name="platform/hardware/qcom/gps"/>
+  <remove-project name="platform/hardware/qcom/sensors"/>
   <remove-project name="platform/vendor/qcom-opensource/fm" />
   <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests"/>
 	<remove-project name="platform/vendor/qcom-opensource/wlan/prima"/>
