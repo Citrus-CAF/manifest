@@ -13,7 +13,7 @@
            review="codeaurora.org" />
 
   <default remote="caf"
-           revision="refs/tags/LA.UM.5.6.r1-02300-89xx.0"
+           revision="refs/tags/LA.UM.5.6.r1-02500-89xx.0"
            sync-j="4" />
 
   <!-- repo's to sync from CODEAURORA -->
@@ -47,9 +47,7 @@
   <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="ctr"/>
   <remove-project name="platform/external/zlib"  />
   <project name="external_zlib" path="external/zlib" remote="ctr" />
-  <remove-project name="platform/external/jemalloc"  />
-  <project name="external_jemalloc" path="external/jemalloc" remote="ctr" />
-
+  
 <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
   <project name="frameworks_av" path="frameworks/av" remote="ctr"/>
@@ -59,6 +57,8 @@
   <project name="frameworks_native" path="frameworks/native" remote="ctr"/>
   <remove-project name="platform/frameworks/opt/telephony" />
   <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="ctr" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="ctr" />
   <remove-project name="platform/frameworks/support"/>
   <project name="frameworks_support" path="frameworks/support" remote="ctr"/>
 
@@ -84,8 +84,6 @@
   <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="ctr" />
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" />
-  <remove-project name="platform/packages/apps/SnapdragonCamera" />
-  <project name="packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="ctr" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" />
 
@@ -121,20 +119,24 @@
   <project name="vendor_citrus" path="vendor/citrus" remote="ctr" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <project name="vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="ctr"/>
+  <remove-project name="platform/system/qcom" />
+  <project name="vendor_qcom_opensource_softap" path="vendor/qcom/opensource/softap" remote="ctr"/>
 <!-- End of Citrus-CAF Additions -->
 
 <!-- AOSPA -->
+  <remove-project name="platform/external/jemalloc" />
+  <project path="external/jemalloc" name="AOSPA/android_external_jemalloc" remote="github" revision="nougat-mr1" />
   <remove-project name="platform/external/libjpeg-turbo" />
-  <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="github" revision="nougat-caf" />
+  <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="github" revision="nougat-mr1" />
   <remove-project name="platform/external/libpng" />
-  <project path="external/libpng" name="AOSPA/android_external_libpng" remote="github" revision="nougat-caf" />
+  <project path="external/libpng" name="AOSPA/android_external_libpng" remote="github" revision="nougat-mr1" />
   <remove-project name="platform/external/sqlite" />
-  <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="github" revision="nougat-caf" />
+  <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="github" revision="nougat-mr1" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="AOSPA/android_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="nougat-caf"/>
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="AOSPA/android_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="nougat-mr1"/>
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="AOSPA/android_gcc_linux-x86_arm-linux-android-4.9" remote="github" revision="nougat-caf"/>
-  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86"  path="vendor/qcom/sdclang-3.8/linux-x86" remote="github" revision="nougat-caf" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="AOSPA/android_gcc_linux-x86_arm-linux-android-4.9" remote="github" revision="nougat-mr1"/>
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86"  path="vendor/qcom/sdclang-3.8/linux-x86" remote="github" revision="nougat-mr1" />
 
 <!-- LineageOS-->
   <remove-project name="device/qcom/sepolicy" />
@@ -147,9 +149,12 @@
   <project name="LineageOS/android_external_flac" path="external/flac" remote="github" revision="cm-14.1"/>
   <project name="LineageOS/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-14.1"/>
   <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-14.1"/>
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <project name="LineageOS/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="github" revision="cm-14.1" />
   <remove-project  name="platform/packages/apps/FMRadio" />
   <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="cm-14.1" />
-
+  <project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-14.1" />
 
 <!-- Masquerade -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
@@ -172,6 +177,7 @@
   <remove-project name="kernel/msm-3.18"/>
   <remove-project name="platform/hardware/qcom/camera"/>
   <remove-project name="platform/hardware/qcom/gps"/>
+  <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/prima"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
