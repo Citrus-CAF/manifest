@@ -69,6 +69,8 @@
   <project name="hardware_qcom_bt" path="hardware/qcom/bt" remote="ctr" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="ctr" />
+  <remove-project name="platform/hardware/ril" />
+  <project name="hardware_ril" path="hardware/ril" remote="ctr" />
 
 <!-- Apps -->
   <project name="packages_apps_AboutCitrus" path="packages/apps/AboutCitrus" remote="ctr"/>
@@ -86,6 +88,8 @@
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="ctr" />
 
 <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
