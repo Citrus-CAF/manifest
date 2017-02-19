@@ -78,6 +78,8 @@
   <project name="packages_apps_Contacts" path="packages/apps/Contacts" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/ContactsCommon" />
   <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="ctr" revision="n" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" />
   <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" revision="n" />
   <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
@@ -87,7 +89,9 @@
   <remove-project name="platform/packages/apps/SnapdragonGallery" />
   <project name="packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
-  <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" revision="n" />
+  <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" revision="n" /> 
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="ctr" revision="n" />
 
 <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
