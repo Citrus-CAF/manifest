@@ -12,10 +12,10 @@ To get started with Citrus-CAF, you'll need to get familiar with
 [Git and Repo](http://source.android.com/download/using-repo).
 
 
-To initialize your local repository for MSM8952 devices, use this command:
+To initialize your local repository for MSM8994 devices, use this command:
 
 
-	repo init -u git://github.com/Citrus-CAF/manifest.git -b n-8952 -m citrus-caf.xml
+	repo init -u git://github.com/Citrus-CAF/manifest.git -b n-8994 -m citrus-caf.xml
 
 
 
