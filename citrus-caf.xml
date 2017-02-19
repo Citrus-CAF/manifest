@@ -90,6 +90,8 @@
   <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="ctr" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" />
 
 <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
