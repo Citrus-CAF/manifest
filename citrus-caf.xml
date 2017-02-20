@@ -76,6 +76,8 @@
   <project name="packages_apps_Contacts" path="packages/apps/Contacts" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/ContactsCommon" />
   <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="ctr" revision="n" />
+  <remove-project name="platform/packages/apps/Dialer" revision="n" />
+  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" />
   <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" revision="n" />
   <remove-project  name="platform/packages/apps/FMRadio" />
   <project name="packages_apps_FMRadio" path="packages/apps/FMRadio" remote="ctr" revision="n" />
@@ -88,6 +90,8 @@
   <project name="packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" revision="n" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="ctr" revision="n" />
 
 <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -151,7 +155,7 @@
   <project name="LineageOS/android_external_flac" path="external/flac" remote="github" revision="cm-14.1"/>
   <remove-project name="platform/external/fsck_msdos" />
   <project name="LineageOS/android_external_fsck_msdos" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_external_fuse" path="external/fsck_msdos" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-14.1"/>
   <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-14.1"/>
