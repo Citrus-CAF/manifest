@@ -165,8 +165,9 @@
   <remove-project name="platform/external/fsck_msdos" />
   <project name="LineageOS/android_external_fsck_msdos" path="external/fsck_msdos" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="cm-14.1" />
 
-  <!-- Omni -->
+<!-- Omni -->
   <project name="OmniROM/android_packages_services_OmniJaws" path="packages/services/OmniJaws" remote="github" revision="android-7.1" />
 
 <!-- Masquerade -->
