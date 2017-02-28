@@ -80,6 +80,9 @@
   <remove-project name="platform/packages/apps/ContactsCommon" />
   <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="ctr" revision="n" />
   <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" revision="n" />
+  <remove-project name="platform/packages/apps/Launcher3 />
+  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" revision="n />
+  <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="ctr" />
   <remove-project name="platform/packages/apps/Settings" />
