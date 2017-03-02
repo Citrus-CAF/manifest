@@ -5,7 +5,7 @@
            fetch="git://codeaurora.org/quic/la"
            review="codeaurora.org" />
   <default remote="caf"
-           revision="refs/tags/LA.BF64.1.2.3-01310-8x94.0"
+           revision="refs/tags/LA.BF64.1.2.3-01410-8x94.0"
            sync-j="4" />
 
   <remote  name="ctr"
@@ -79,6 +79,8 @@
   <remove-project name="platform/packages/apps/Dialer" revision="n" />
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" />
   <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" revision="n" />
+  <remove-project name="platform/packages/apps/ExactCalculator" />
+  <project name="packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="ctr" revision="n" />
   <remove-project  name="platform/packages/apps/FMRadio" />
   <project name="packages_apps_FMRadio" path="packages/apps/FMRadio" remote="ctr" revision="n" />
   <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" revision="n" />
@@ -174,10 +176,10 @@
   <project name="hardware_qcom_media" path="hardware/qcom/media" remote="ctr"/>
 
 <!-- Masquerade -->
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
+  <project path="packages/apps/masquerade" name="Substratum/masquerade" remote="github" revision="n" />
 
 <!-- Sync manifest repo -->
-  <project name="manifest" path="manifest" remote="ctr" revision="n"/>
+  <project name="manifest" path="manifest" remote="ctr" />
 
 <!-- Remove this bloats -->
   <remove-project name="device/generic/arm64"/>
