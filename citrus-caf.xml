@@ -38,6 +38,8 @@
   <project name="device_qcom_common" path="device/qcom/common" remote="ctr" />
 
 <!-- External -->
+  <remove-project name="platform/external/boringssl" />
+  <project name="external_boringssl" path="external/boringssl" remote="ctr" />
   <project name="external_DUtils" path="external/DUtils" remote="ctr"/>
   <remove-project name="platform/external/e2fsprogs" />
   <project name="external_e2fsprogs" path="external/e2fsprogs" remote="ctr"/>
@@ -82,6 +84,8 @@
   <remove-project name="platform/packages/apps/ContactsCommon" />
   <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="ctr" />
   <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+  <project name="packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="ctr" />
   <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="ctr" />
@@ -93,6 +97,11 @@
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="ctr" />
   <remove-project name="platform/packages/apps/Dialer" />
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" />
+  <remove-project name="platform/packages/apps/ExactCalculator" />
+  <project name="packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="ctr" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" />
+
 
 <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -164,14 +173,15 @@
   <project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-14.1" />
   <remove-project name="platform/external/fsck_msdos" />
   <project name="LineageOS/android_external_fsck_msdos" path="external/fsck_msdos" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="cm-14.1"/>
   <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="cm-14.1" />
 
 <!-- Omni -->
   <project name="OmniROM/android_packages_services_OmniJaws" path="packages/services/OmniJaws" remote="github" revision="android-7.1" />
 
-<!-- Masquerade -->
-  <project path="packages/apps/masquerade" name="Substratum/masquerade" remote="github" revision="n" />
+<!-- Substratum Interfacer -->
+  <project path="packages/apps/interfacer" name="Substratum/interfacer" remote="github" revision="n-rootless" />
 
 <!-- Sync manifest repo -->
   <project name="manifest" path="manifest" remote="ctr"/>
