@@ -5,7 +5,7 @@
            fetch="git://codeaurora.org/quic/la"
            review="codeaurora.org" />
   <default remote="caf"
-           revision="refs/tags/LA.BF64.1.2.3-01410-8x94.0"
+           revision="refs/tags/LA.BF64.1.2.3-01510-8x94.0"
            sync-j="4" />
 
   <remote  name="ctr"
