@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- CODEAURORA -->
+<!--CODEAURORA-->
   <project groups="pdk-cw-fs,pdk-fs" name="device/common"/>
   <project groups="pdk" name="device/generic/arm64"/>
   <project groups="pdk" name="device/generic/armv7-a-neon"/>
