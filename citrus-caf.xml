@@ -106,6 +106,10 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="ctr" revision="n" />
 
+<!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/misc" />
+  <project groups="pdk" name="Flash-ROM/prebuilts_misc" path="prebuilts/misc" remote="github" revision="n7.1.2" clone-depth="1" />
+
 <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="ctr" />
