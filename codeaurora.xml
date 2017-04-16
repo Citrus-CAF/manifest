@@ -517,6 +517,6 @@
   <project name="platform/vendor/qcom/msm8916_64" path="device/qcom/msm8916_64"/>
   <project name="platform/vendor/qcom/msm8916_64_LMT" path="device/qcom/msm8916_64_LMT"/>
   <project name="platform/vendor/qcom/plutonium" path="device/qcom/msm8994"/>
-  <project name="toolchain/binutils"/>
+  <project name="toolchain/binutils" remote="caf-legacy" />
   <!-- CODEAURORA -->
 </manifest>
