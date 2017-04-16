@@ -9,7 +9,7 @@
            fetch="https://github.com/" />
 
   <remote  name="caf"
-           fetch="git://codeaurora.org/quic/la"
+           fetch="https://source.codeaurora.org/"
            review="codeaurora.org" />
 	
   <default remote="caf"
