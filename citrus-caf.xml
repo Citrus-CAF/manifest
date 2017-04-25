@@ -14,10 +14,10 @@
 
   <remote  name="caf-legacy"
            fetch="git://codeaurora.org/quic/la"
-           revision="LA.BR.1.2.9_rb1.15" />
+           revision="LA.BR.1.2.9_rb1.16" />
 
   <default remote="caf"
-           revision="LA.BR.1.2.9_rb1.15"
+           revision="LA.BR.1.2.9_rb1.16"
            sync-j="4" />
 
 <!-- Include repo's to sync from CODEAURORA -->
