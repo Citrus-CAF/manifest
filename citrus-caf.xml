@@ -33,7 +33,7 @@
   <remove-project name="platform/build/kati" />
   <project name="build_kati" path="build/kati" remote="ctr" revision="n"/>
   <remove-project name="platform/bootable/recovery" />
-  <project name="bootable_recovery" path="bootable/recovery" remote="ctr" revision="n" />
+  <project name="bootable_recovery" path="bootable/recovery" remote="ctr"/>
   <remove-project name="platform/bionic" />
   <project name="bionic" path="bionic" remote="ctr" revision="n" />
   <remove-project name="platform/development" />
