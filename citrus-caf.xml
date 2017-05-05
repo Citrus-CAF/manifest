@@ -175,9 +175,6 @@
   <project name="LineageOS/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-14.1" />
 
-  <!-- Omni -->
-  <project name="OmniROM/android_packages_services_OmniJaws" path="packages/services/OmniJaws" remote="github" revision="android-7.1" />
-
 <!--  HALS -->
   <remove-project name="platform/hardware/qcom/audio" />
   <project name="hardware_qcom_audio" path="hardware/qcom/audio" remote="ctr"/>
