@@ -3,7 +3,7 @@
 
   <remote  name="ctr"
            fetch="https://github.com/Citrus-CAF"
-           revision="n-8916" />
+           revision="staging/n-8916_rebase" />
 
   <remote  name="github"
            fetch="https://github.com/" />
@@ -27,7 +27,7 @@
   <remove-project name="platform/art" />
   <project name="art" path="art" remote="ctr" />
   <remove-project name="platform/build" />
-  <project path="build" name="build" remote="ctr" revision="n" >
+  <project path="build" name="build" remote="ctr" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <remove-project name="platform/build/kati" />
