@@ -114,7 +114,7 @@
   <remove-project name="platform/prebuilts/misc" />
   <project groups="pdk" name="Flash-ROM/prebuilts_misc" path="prebuilts/misc" remote="github" revision="n7.1.2" clone-depth="1" />
   <remove-project name="platform/prebuilts/tools" />
-  <project groups="pdk" name="Flash-ROM/prebuilts_build-tools" path="prebuilts/tools" remote="github" revision="n7.1.2" clone-depth="1" />
+  <project groups="pdk" name="Flash-ROM/prebuilts_build-tools" path="prebuilts/build-tools" remote="github" revision="n7.1.2" clone-depth="1" />
 
 <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
