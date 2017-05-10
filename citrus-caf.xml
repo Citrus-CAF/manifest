@@ -113,6 +113,8 @@
 <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/misc" />
   <project groups="pdk" name="Flash-ROM/prebuilts_misc" path="prebuilts/misc" remote="github" revision="n7.1.2" clone-depth="1" />
+  <remove-project name="platform/prebuilts/tools" />
+  <project groups="pdk" name="Flash-ROM/prebuilts_tools" path="prebuilts/tools" remote="github" revision="n7.1.2" clone-depth="1" />
 
 <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -159,18 +161,18 @@
 
 <!-- AOSPA -->
   <remove-project name="platform/external/jemalloc" />
-  <project path="external/jemalloc" name="AOSPA/android_external_jemalloc" remote="github" revision="nougat-mr1" />
+  <project path="external/jemalloc" name="AOSPA/android_external_jemalloc" remote="github" revision="nougat-mr2" />
   <remove-project name="platform/external/libjpeg-turbo" />
-  <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="github" revision="nougat-mr1" />
+  <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="github" revision="nougat-mr2" />
   <remove-project name="platform/external/libpng" />
-  <project path="external/libpng" name="AOSPA/android_external_libpng" remote="github" revision="nougat-mr1" />
+  <project path="external/libpng" name="AOSPA/android_external_libpng" remote="github" revision="nougat-mr2" />
   <remove-project name="platform/external/sqlite" />
-  <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="github" revision="nougat-mr1" />
+  <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="github" revision="nougat-mr2" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="AOSPA/android_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="nougat-mr1"/>
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="AOSPA/android_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="nougat-mr2"/>
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="AOSPA/android_gcc_linux-x86_arm-linux-android-4.9" remote="github" revision="nougat-mr1"/>
-  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86"  path="vendor/qcom/sdclang-3.8/linux-x86" remote="github" revision="nougat-mr1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="AOSPA/android_gcc_linux-x86_arm-linux-android-4.9" remote="github" revision="nougat-mr2"/>
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86"  path="vendor/qcom/sdclang-3.8/linux-x86" remote="github" revision="nougat-mr2" />
 
 <!-- LineageOS -->
   <remove-project name="device/qcom/sepolicy" />
@@ -200,7 +202,7 @@
 <!-- Sync manifest repo -->
   <project name="manifest" path="manifest" remote="ctr"/>
 
-<!-- Remove this bloats -->
+<!-- Remove bloat -->
   <remove-project name="device/generic/arm64"/>
   <remove-project name="device/generic/armv7-a-neon"/>
   <remove-project name="device/generic/common"/>
@@ -217,7 +219,12 @@
   <remove-project name="platform/hardware/qcom/camera"/>
   <remove-project name="platform/hardware/qcom/gps"/>
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
+  <remove-project name="platform/packages/screensavers/Basic" />
+  <remove-project name="platform/packages/screensavers/PhotoTable" />
+  <remove-project name="platform/packages/screensavers/WebView" />
+  <remove-project name="platform/packages/services/Car" />
   <remove-project name="platform/hardware/qcom/sensors"/>
+  <remove-project name="platform/prebuilts/qemu-kernel"/>
   <remove-project name="platform/vendor/qcom-opensource/fm" />
   <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/prima"/>
