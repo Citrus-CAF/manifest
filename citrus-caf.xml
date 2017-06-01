@@ -5,12 +5,12 @@
            fetch="git://codeaurora.org/quic/la"
            review="codeaurora.org" />
   <default remote="caf"
-           revision="LA.BR.1.3.6_rb1.17"
+           revision="LA.BR.1.3.6_rb1.18"
            sync-j="4" />
 
   <remote  name="ctr"
            fetch="https://github.com/Citrus-CAF"
-           revision="n-8952" />
+           revision="n7x-8952" />
 
   <remote  name="github"
            fetch="https://github.com/" />
@@ -19,31 +19,29 @@
   <include name="codeaurora.xml" />
 
 <!-- Begin Citrus-CAF Additions -->
-  <remove-project name="platform/art" />
-  <project name="art" path="art" remote="ctr" />
   <remove-project name="platform/build" />
-  <project path="build" name="build" remote="ctr" >
+  <project path="build" name="build" remote="ctr" revision="n7x" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <remove-project name="platform/build/kati" />
-  <project name="build_kati" path="build/kati" remote="ctr" revision="n"/>
+  <project name="build_kati" path="build/kati" remote="ctr" revision="n7x"/>
   <remove-project name="platform/bootable/recovery" />
-  <project name="bootable_recovery" path="bootable/recovery" remote="ctr" revision="n"/>
+  <project name="bootable_recovery" path="bootable/recovery" remote="ctr" revision="n7x-8996"/>
   <remove-project name="platform/bionic" />
   <project name="bionic" path="bionic" remote="ctr"/>
   <remove-project name="platform/development" />
-  <project name="development" path="development" remote="ctr" revision="n" />
+  <project name="development" path="development" remote="ctr" revision="n7x-8996" />
   <remove-project name="device/qcom/common" />
-  <project name="device_qcom_common" path="device/qcom/common" remote="ctr" />
+  <project name="device_qcom_common" path="device/qcom/common" remote="ctr" revision="n7x" />
   <remove-project name="platform/vendor/qcom/tellurium_64" />
   <project name="device_qcom_msm8952_64" path="device/qcom/msm8952_64" remote="ctr" />
 
 <!-- External -->
   <remove-project name="platform/external/boringssl" />
-  <project name="external_boringssl" path="external/boringssl" remote="ctr" revision="n" />
+  <project name="external_boringssl" path="external/boringssl" remote="ctr" revision="n7x-8996" />
   <project name="external_DUtils" path="external/DUtils" remote="ctr" revision="n"/>
   <remove-project name="platform/external/e2fsprogs" />
-  <project name="external_e2fsprogs" path="external/e2fsprogs" remote="ctr" revision="n"/>
+  <project name="external_e2fsprogs" path="external/e2fsprogs" remote="ctr" revision="n7x-8996"/>
   <remove-project name="platform/external/skia" />
   <project name="external_skia" path="external/skia" remote="ctr"/>
   <remove-project name="platform/external/wpa_supplicant_8" />
@@ -61,7 +59,15 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="ctr" />
   <remove-project name="platform/frameworks/support"/>
-  <project name="frameworks_support" path="frameworks/support" remote="ctr" revision="n"/>
+  <project name="frameworks_support" path="frameworks/support" remote="ctr" revision="n7x-8996"/>
+
+<!--  HALS -->
+  <remove-project name="platform/hardware/qcom/audio" />
+  <project name="hardware_qcom_audio" path="hardware/qcom/audio" remote="ctr"/>
+  <remove-project name="platform/hardware/qcom/display" />
+  <project name="hardware_qcom_display" path="hardware/qcom/display" remote="ctr"/>
+  <remove-project name="platform/hardware/qcom/media" />
+  <project name="hardware_qcom_media" path="hardware/qcom/media" remote="ctr"/>
 
 <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware" />
@@ -73,29 +79,29 @@
 
 <!-- Apps -->
   <project name="packages_apps_AboutCitrus" path="packages/apps/AboutCitrus" remote="ctr" revision="n" />
-  <project name="packages_apps_CustomSquash" path="packages/apps/CustomSquash" remote="ctr" />
+  <project name="packages_apps_CustomSquash" path="packages/apps/CustomSquash" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <project name="packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="ctr" />
   <remove-project name="platform/packages/apps/Contacts" />
-  <project name="packages_apps_Contacts" path="packages/apps/Contacts" remote="ctr" revision="n" />
+  <project name="packages_apps_Contacts" path="packages/apps/Contacts" remote="ctr" revision="n7x-8996" />
   <remove-project name="platform/packages/apps/ContactsCommon" />
-  <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="ctr" revision="n" />
+  <project name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="ctr" revision="n7x-8996" />
   <remove-project name="platform/packages/apps/Dialer" />
-  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" />
+  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" revision="n7x-8996" />
   <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/ExactCalculator" />
-  <project name="packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="ctr" revision="n" />
+  <project name="packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="ctr" revision="n7x-8996" />
   <remove-project name="platform/packages/apps/FMRadio" />
   <project name="packages_apps_FMRadio" path="packages/apps/FMRadio" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/Messaging" />
-  <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" revision="n" />
+  <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" revision="n7x-8996" />
   <remove-project name="platform/packages/apps/Launcher3" />
-  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" revision="n" />
+  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" revision="n7x-8996" />
   <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" revision="n" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
-  <project name="packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="ctr" revision="n" />
+  <project name="packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="ctr" revision="n7x-8996" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
-  <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="ctr" />
+  <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="ctr" revision="n7x-8996" />
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" />
   <remove-project name="platform/packages/apps/SnapdragonGallery" />
@@ -103,8 +109,14 @@
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" revision="n" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="ctr" revision="n" />
+  <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="ctr" revision="n7x-8996" />
   <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="ctr" revision="n" />
+
+<!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <project name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="ctr" revision="n7x-8996" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <project name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="ctr" revision="n7x-8996"/>
 
 <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -126,35 +138,20 @@
   <remove-project name="platform/system/core" />
   <project name="system_core" path="system/core" remote="ctr" />
   <remove-project name="platform/system/extras" />
-  <project name="system_extras" path="system/extras" remote="ctr" revision="n" />
+  <project name="system_extras" path="system/extras" remote="ctr" revision="n7x-8996" />
   <remove-project name="platform/system/media" />
   <project name="system_media" path="system/media" remote="ctr" />
   <remove-project name="platform/system/sepolicy" />
   <project name="system_sepolicy" path="system/sepolicy" remote="ctr" />
   <remove-project name="platform/system/vold" />
-  <project name="system_vold" path="system/vold" remote="ctr" revision="n"/>
+  <project name="system_vold" path="system/vold" remote="ctr" revision="n7x-8996"/>
 
 <!-- Vendor -->
-  <project name="vendor_citrus" path="vendor/citrus" remote="ctr" revision="n" />
+  <project name="vendor_citrus" path="vendor/citrus" remote="ctr" revision="n7x" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
-  <project name="vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="ctr" />
+  <project name="vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="ctr" revision="n7x-8996" />
 
 <!-- End of Citrus-CAF Additions -->
-
-<!-- AOSPA -->
-  <remove-project name="platform/external/jemalloc" />
-  <project path="external/jemalloc" name="AOSPA/android_external_jemalloc" remote="github" revision="nougat-mr1" />
-  <remove-project name="platform/external/libjpeg-turbo" />
-  <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="github" revision="nougat-mr1" />
-  <remove-project name="platform/external/libpng" />
-  <project path="external/libpng" name="AOSPA/android_external_libpng" remote="github" revision="nougat-mr1" />
-  <remove-project name="platform/external/sqlite" />
-  <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="github" revision="nougat-mr1" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="AOSPA/android_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="nougat-mr1"/>
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="AOSPA/android_gcc_linux-x86_arm-linux-android-4.9" remote="github" revision="nougat-mr1"/>
-  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86"  path="vendor/qcom/sdclang-3.8/linux-x86" remote="github" revision="nougat-mr1" />
 
 <!-- LineageOS -->
   <remove-project name="device/qcom/sepolicy" />
@@ -174,14 +171,6 @@
   <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-14.1"/>
   <project name="LineageOS/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-14.1" />
-
-<!--  HALS -->
-  <remove-project name="platform/hardware/qcom/audio" />
-  <project name="hardware_qcom_audio" path="hardware/qcom/audio" remote="ctr"/>
-  <remove-project name="platform/hardware/qcom/display" />
-  <project name="hardware_qcom_display" path="hardware/qcom/display" remote="ctr"/>
-  <remove-project name="platform/hardware/qcom/media" />
-  <project name="hardware_qcom_media" path="hardware/qcom/media" remote="ctr"/>
 
 <!-- Substratum Interfacer -->
   <project path="packages/apps/interfacer" name="Substratum/interfacer" remote="github" revision="n-rootless" />
