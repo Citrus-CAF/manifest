@@ -27,8 +27,8 @@
   <project name="build_kati" path="build/kati" remote="ctr" revision="n7x"/>
   <remove-project name="platform/bootable/recovery" />
   <project name="bootable_recovery" path="bootable/recovery" remote="ctr" revision="n7x"/>
-  <!-- remove-project name="platform/bionic"
-  <project name="bionic" path="bionic" remote="ctr" -->
+  <remove-project name="platform/bionic" />
+  <project name="bionic" path="bionic" remote="ctr" />
   <remove-project name="platform/development" />
   <project name="development" path="development" remote="ctr" revision="n7x" />
   <remove-project name="device/qcom/common" />
@@ -40,23 +40,23 @@
   <project name="external_DUtils" path="external/DUtils" remote="ctr" revision="n7x"/>
   <remove-project name="platform/external/e2fsprogs" />
   <project name="external_e2fsprogs" path="external/e2fsprogs" remote="ctr" revision="n7x"/>
-  <!-- remove-project name="platform/external/skia"
-  <project name="external_skia" path="external/skia" remote="ctr" -->
+  <remove-project name="platform/external/skia" />
+  <project name="external_skia" path="external/skia" remote="ctr" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="ctr" revision="n7x"/>
-  <!-- remove-project name="platform/external/zlib"
-  <project name="external_zlib" path="external/zlib" remote="ctr" -->
+  <remove-project name="platform/external/zlib" />
+  <project name="external_zlib" path="external/zlib" remote="ctr" />
 
 <!-- Frameworks -->
 
-  <!-- remove-project name="platform/frameworks/av"
-  <project name="frameworks_av" path="frameworks/av" remote="ctr" -->
-  <!-- remove-project name="platform/frameworks/base"
-  <project name="frameworks_base" path="frameworks/base" remote="ctr" -->
-  <!-- remove-project name="platform/frameworks/native"
-  <project name="frameworks_native" path="frameworks/native" remote="ctr" -->
-  <!-- remove-project name="platform/frameworks/opt/telephony"
-  <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="ctr" -->
+  <remove-project name="platform/frameworks/av" />
+  <project name="frameworks_av" path="frameworks/av" remote="ctr" />
+  <remove-project name="platform/frameworks/base" />
+  <project name="frameworks_base" path="frameworks/base" remote="ctr" />
+  <remove-project name="platform/frameworks/native" />
+  <project name="frameworks_native" path="frameworks/native" remote="ctr" />
+  <remove-project name="platform/frameworks/opt/telephony"/>
+  <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="ctr" />
   <remove-project name="platform/frameworks/support"/>
   <project name="frameworks_support" path="frameworks/support" remote="ctr" revision="n7x"/>
 
@@ -117,23 +117,23 @@
 
 <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
-  <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="ctr" />
+  <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/providers/MediaProvider" />
-  <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="ctr" />
+  <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
-  <project name="packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="ctr" />
+  <project name="packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="ctr" revision="n7x" />
 
 <!-- Services -->
   <remove-project name="platform/packages/services/Telecomm" />
-  <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="ctr" />
+  <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/services/Telephony" />
-  <project name="packages_services_Telephony" path="packages/services/Telephony" remote="ctr" />
+  <project name="packages_services_Telephony" path="packages/services/Telephony" remote="ctr" revision="n7x" />
 
 <!-- System -->
-  <!-- remove-project name="platform/system/bt"
-  <project name="system_bt" path="system/bt" remote="ctr" -->
-  <!-- remove-project name="platform/system/core"
-  <project name="system_core" path="system/core" remote="ctr" -->
+  <remove-project name="platform/system/bt" />
+  <project name="system_bt" path="system/bt" remote="ctr" />
+  <remove-project name="platform/system/core" />
+  <project name="system_core" path="system/core" remote="ctr" />
   <remove-project name="platform/system/extras" />
   <project name="system_extras" path="system/extras" remote="ctr" revision="n7x" />
   <remove-project name="platform/system/media" />
@@ -170,7 +170,7 @@
   <project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-14.1" />
 
 <!-- Substratum Interfacer -->
-  <project path="packages/apps/interfacer" name="Substratum/interfacer" remote="github" revision="n-rootless" />
+  <project path="packages/services/interfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 
 <!-- Sync manifest repo -->
   <project name="manifest" path="manifest" remote="ctr"/>
