@@ -68,6 +68,15 @@
   <project name="hardware_qcom_bt" path="hardware/qcom/bt" remote="ctr" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="ctr" />
+  
+<!--  HALS -->
+  <remove-project name="platform/hardware/qcom/audio" />
+  <project name="hardware_qcom_audio" path="hardware/qcom/audio" remote="ctr"/>
+  <remove-project name="platform/hardware/qcom/display" />
+  <project name="hardware_qcom_display" path="hardware/qcom/display" remote="ctr"/>
+  <remove-project name="platform/hardware/qcom/media" />
+  <project name="hardware_qcom_media" path="hardware/qcom/media" remote="ctr"/>
+  
 
 <!-- Apps -->
   <project name="packages_apps_AboutCitrus" path="packages/apps/AboutCitrus" remote="ctr" revision="n" />
@@ -168,7 +177,7 @@
   <project path="packages/apps/interfacer" name="Substratum/interfacer" remote="github" revision="n-rootless" />
 
 <!-- Sync manifest repo -->
-  <project name="manifest" path="manifest" remote="ctr" revision="n-8994"/>
+  <project name="manifest" path="manifest" remote="ctr" />
 
 <!-- Remove this bloats -->
   <remove-project name="device/generic/arm64"/>
