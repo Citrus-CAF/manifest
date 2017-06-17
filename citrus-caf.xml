@@ -24,11 +24,11 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <remove-project name="platform/build/kati" />
-  <project name="build_kati" path="build/kati" remote="ctr" revision="n7x"/>
+  <project name="build_kati" path="build/kati" remote="ctr" revision="n7x" />
   <remove-project name="platform/bootable/recovery" />
-  <project name="bootable_recovery" path="bootable/recovery" remote="ctr" revision="n7x"/>
+  <project name="bootable_recovery" path="bootable/recovery" remote="ctr" revision="n7x" />
   <remove-project name="platform/bionic" />
-  <project name="bionic" path="bionic" remote="ctr" />
+  <project name="bionic" path="bionic" remote="ctr" revision="n7x" />
   <remove-project name="platform/development" />
   <project name="development" path="development" remote="ctr" revision="n7x" />
   <remove-project name="device/qcom/common" />
@@ -37,13 +37,13 @@
 <!-- External -->
   <remove-project name="platform/external/boringssl" />
   <project name="external_boringssl" path="external/boringssl" remote="ctr" revision="n7x" />
-  <project name="external_DUtils" path="external/DUtils" remote="ctr" revision="n7x"/>
+  <project name="external_DUtils" path="external/DUtils" remote="ctr" revision="n7x" />
   <remove-project name="platform/external/e2fsprogs" />
-  <project name="external_e2fsprogs" path="external/e2fsprogs" remote="ctr" revision="n7x"/>
+  <project name="external_e2fsprogs" path="external/e2fsprogs" remote="ctr" revision="n7x" />
   <remove-project name="platform/external/skia" />
   <project name="external_skia" path="external/skia" remote="ctr" />
   <remove-project name="platform/external/wpa_supplicant_8" />
-  <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="ctr" revision="n7x"/>
+  <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="ctr" revision="n7x" />
   <remove-project name="platform/external/zlib" />
   <project name="external_zlib" path="external/zlib" remote="ctr" />
 
@@ -55,18 +55,18 @@
   <project name="frameworks_base" path="frameworks/base" remote="ctr" />
   <remove-project name="platform/frameworks/native" />
   <project name="frameworks_native" path="frameworks/native" remote="ctr" />
-  <remove-project name="platform/frameworks/opt/telephony"/>
+  <remove-project name="platform/frameworks/opt/telephony" />
   <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="ctr" />
-  <remove-project name="platform/frameworks/support"/>
-  <project name="frameworks_support" path="frameworks/support" remote="ctr" revision="n7x"/>
+  <remove-project name="platform/frameworks/support" />
+  <project name="frameworks_support" path="frameworks/support" remote="ctr" revision="n7x" />
 
 <!--  HALS -->
   <remove-project name="platform/hardware/qcom/audio" />
-  <project name="hardware_qcom_audio" path="hardware/qcom/audio" remote="ctr"/>
+  <project name="hardware_qcom_audio" path="hardware/qcom/audio" remote="ctr" />
   <remove-project name="platform/hardware/qcom/display" />
-  <project name="hardware_qcom_display" path="hardware/qcom/display" remote="ctr"/>
+  <project name="hardware_qcom_display" path="hardware/qcom/display" remote="ctr" />
   <remove-project name="platform/hardware/qcom/media" />
-  <project name="hardware_qcom_media" path="hardware/qcom/media" remote="ctr"/>
+  <project name="hardware_qcom_media" path="hardware/qcom/media" remote="ctr" />
 
 <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware" />
@@ -113,7 +113,7 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <project name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="ctr" revision="n7x" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <project name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="ctr" revision="n7x"/>
+  <project name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="ctr" revision="n7x" />
 
 <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -141,7 +141,7 @@
   <remove-project name="platform/system/sepolicy" />
   <project name="system_sepolicy" path="system/sepolicy" remote="ctr" revision="n7x" />
   <remove-project name="platform/system/vold" />
-  <project name="system_vold" path="system/vold" remote="ctr" revision="n7x"/>
+  <project name="system_vold" path="system/vold" remote="ctr" revision="n7x" />
 
 <!-- Vendor -->
   <project name="vendor_citrus" path="vendor/citrus" remote="ctr" revision="n7x" />
@@ -156,16 +156,16 @@
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="cm-14.1" />
   <remove-project name="platform/external/f2fs-tools" />
-  <project name="LineageOS/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="cm-14.1"/>
+  <project name="LineageOS/android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_ffmpeg" path="external/ffmpeg" remote="github" revision="cm-14.1" />
   <remove-project name="platform/external/flac" />
-  <project name="LineageOS/android_external_flac" path="external/flac" remote="github" revision="cm-14.1"/>
+  <project name="LineageOS/android_external_flac" path="external/flac" remote="github" revision="cm-14.1" />
   <remove-project name="platform/external/fsck_msdos" />
   <project name="LineageOS/android_external_fsck_msdos" path="external/msdos" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="cm-14.1"/>
+  <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-14.1"/>
-  <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-14.1"/>
+  <project name="LineageOS/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-14.1" />
 
@@ -173,29 +173,29 @@
   <project path="packages/services/interfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 
 <!-- Sync manifest repo -->
-  <project name="manifest" path="manifest" remote="ctr"/>
+  <project name="manifest" path="manifest" remote="ctr" />
 
 <!-- Remove this bloats -->
-  <remove-project name="device/generic/arm64"/>
-  <remove-project name="device/generic/armv7-a-neon"/>
-  <remove-project name="device/generic/common"/>
-  <remove-project name="device/generic/goldfish"/>
-  <remove-project name="device/generic/mini-emulator-arm64"/>
-  <remove-project name="device/generic/mini-emulator-armv7-a-neon"/>
-  <remove-project name="device/generic/mini-emulator-x86"/>
-  <remove-project name="device/generic/mini-emulator-x86_64"/>
-  <remove-project name="device/generic/qemu"/>
-  <remove-project name="device/generic/x86"/>
-  <remove-project name="device/generic/x86_64"/>
-  <remove-project name="device/sample"/>
-  <remove-project name="kernel/msm-3.10"/>
-  <remove-project name="platform/hardware/qcom/camera"/>
-  <remove-project name="platform/hardware/qcom/gps"/>
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/common" />
+  <remove-project name="device/generic/goldfish" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/sample" />
+  <remove-project name="kernel/msm-3.10" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
-  <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc"/>
+  <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc" />
   <remove-project name="platform/vendor/qcom-opensource/fm" />
-  <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests"/>
-  <remove-project name="platform/vendor/qcom-opensource/wlan/prima"/>
-  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
+  <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/prima" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
 
 </manifest>
