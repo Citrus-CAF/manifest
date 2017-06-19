@@ -5,7 +5,7 @@
            fetch="git://codeaurora.org/quic/la"
            review="codeaurora.org" />
   <default remote="caf"
-           revision="LA.BR.1.2.9_rb1.18"
+           revision="LA.BR.1.2.9_rb1.22"
            sync-j="4" />
 
   <remote  name="ctr"
