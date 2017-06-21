@@ -107,8 +107,9 @@
   <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="ctr" revision="n7x" />
+  <remove-project "platform/packages/apps/Settings" />
+  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" revision="n7x" />
   <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="ctr" revision="n" />
-
 <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <project name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="ctr" revision="n7x" />
