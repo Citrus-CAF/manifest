@@ -93,7 +93,7 @@
   <remove-project name="platform/packages/apps/ExactCalculator" />
   <project name="packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/FMRadio" />
-  <project name="packages_apps_FMRadio" path="packages/apps/FMRadio" remote="ctr" revision="n" />
+  <project name="packages_apps_FMRadio" path="packages/apps/FMRadio" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/Messaging" />
   <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/Launcher3" />
@@ -111,7 +111,7 @@
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" revision="n7x" />
-  <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="ctr" revision="n" />
+  <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="ctr" revision="n7x" />
 <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <project name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="ctr" revision="n7x" />
