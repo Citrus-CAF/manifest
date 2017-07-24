@@ -19,6 +19,8 @@
   <include name="codeaurora.xml" />
 
 <!-- Begin Citrus-CAF Additions -->
+  <remove-project name="platform/art" />
+  <project name="art" path="art" remote="ctr" />
   <remove-project name="platform/build" />
   <project path="build" name="build" remote="ctr" revision="n7x" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -35,6 +37,8 @@
   <project name="device_qcom_common" path="device/qcom/common" remote="ctr" revision="n7x" />
   <remove-project name="platform/vendor/qcom/tellurium_64" />
   <project name="device_qcom_msm8952_64" path="device/qcom/msm8952_64" remote="ctr" />
+  <remove-project name="platform/libcore" />
+  <project name="libcore" path="libcore" remote="ctr" revisiin="n7x" />
 
 <!-- External -->
   <remove-project name="platform/external/boringssl" />
@@ -154,6 +158,13 @@
   <project name="vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="ctr" revision="n7x" />
 
 <!-- End of Citrus-CAF Additions -->
+
+  <!-- FlashROM -->
+  <project name="Flash-ROM/prebuilts_build-tools" path="prebuilts/build-tools" remote="github" revision="n7.1.2" clone-depth="1" />
+  <remove-project name="platform/prebuilts/misc" />
+  <project name="Flash-ROM/prebuilts_misc" path="prebuilts/misc" remote="github" revision="n7.1.2" clone-depth="1" />
+  <remove-project name="platform/external/sqlite" />
+  <project name="Flash-ROM/external_sqlite" path="external/sqlite" remote="github" revision="n7.1.2" />
 
 <!-- LineageOS -->
   <remove-project name="device/qcom/sepolicy" />
