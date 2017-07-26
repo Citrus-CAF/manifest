@@ -148,6 +148,13 @@
 
 <!-- End of Citrus-CAF Additions -->
 
+<!-- FlashROM -->
+  <project name="Flash-ROM/prebuilts_build-tools" path="prebuilts/build-tools" remote="github" revision="n7.1.2" clone-depth="1" />
+  <remove-project name="platform/prebuilts/misc" />
+  <project name="Flash-ROM/prebuilts_misc" path="prebuilts/misc" remote="github" revision="n7.1.2" clone-depth="1" />
+  <remove-project name="platform/external/sqlite" />
+  <project name="Flash-ROM/external_sqlite" path="external/sqlite" remote="github" revision="n7.1.2" />
+
 <!-- LineageOS-->
   <remove-project name="device/qcom/sepolicy" />
   <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="cm-14.1" />
