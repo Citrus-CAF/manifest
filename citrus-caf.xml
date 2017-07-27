@@ -38,7 +38,7 @@
   <remove-project name="platform/vendor/qcom/tellurium_64" />
   <project name="device_qcom_msm8952_64" path="device/qcom/msm8952_64" remote="ctr" />
   <remove-project name="platform/libcore" />
-  <project name="libcore" path="libcore" remote="ctr" revisiin="n7x" />
+  <project name="libcore" path="libcore" remote="ctr" revision="n7x" />
 
 <!-- External -->
   <remove-project name="platform/external/boringssl" />
