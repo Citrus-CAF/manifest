@@ -213,7 +213,6 @@
   <remove-project name="platform/packages/apps/Calculator" />
   <remove-project name="platform/packages/apps/Camera" />
   <remove-project name="platform/packages/apps/CMFileManager"/>
-  <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Launcher2"/>
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
