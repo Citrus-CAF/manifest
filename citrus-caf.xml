@@ -36,6 +36,8 @@
   <project name="development" path="development" remote="ctr"/>
   <remove-project name="device/qcom/common" />
   <project name="device_qcom_common" path="device/qcom/common" remote="ctr" />
+  <remove-project name="platform/libcore" />
+  <project name="libcore" path="libcore" remote="ctr" revision="n7x" />
 
 <!-- External -->
   <remove-project name="platform/external/boringssl" />
