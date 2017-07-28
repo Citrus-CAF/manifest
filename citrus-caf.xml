@@ -93,6 +93,7 @@
   <remove-project name="platform/packages/apps/Dialer" />
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="ctr" revision="n7x" />
   <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" revision="n7x" />
+  <project name="packages_apps_DSPManager" path="packages/apps/DSPManager" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/ExactCalculator" />
   <project name="packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/FMRadio" />
@@ -101,6 +102,8 @@
   <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/Messaging" />
   <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" revision="n7x" />
+  <remove-project name="platform/packages/apps/MusicFX" />
+  <project name="packages_apps_MusicFX" path="packages/apps/MusicFX" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" revision="n7x" />
   <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" revision="n7x" />
