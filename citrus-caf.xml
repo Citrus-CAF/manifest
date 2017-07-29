@@ -108,6 +108,8 @@
   <project name="packages_apps_MusicFX" path="packages/apps/MusicFX" remote="ctr" />
   <project name="packages_apps_CitrusHeaders" path="packages/apps/CitrusHeaders" remote="ctr" />
   <project name="packages_apps_CTRWalls" path="packages/apps/CTRWalls" remote="ctr" />
+  <remove-project name="platform/packages/apps/Stk" />
+  <project name="packages_apps_Stk" path="packages/apps/Stk" remote="ctr" />
 
 <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
