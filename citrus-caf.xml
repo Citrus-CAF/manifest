@@ -106,7 +106,8 @@
   <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" />
   <remove-project name="platform/packages/apps/MusicFX" />
   <project name="packages_apps_MusicFX" path="packages/apps/MusicFX" remote="ctr" />
-
+  <project name="packages_apps_CitrusHeaders" path="packages/apps/CitrusHeaders" remote="ctr" />
+  <project name="packages_apps_CTRWalls" path="packages/apps/CTRWalls" remote="ctr" />
 
 <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
