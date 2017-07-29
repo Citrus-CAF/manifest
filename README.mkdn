@@ -1,7 +1,6 @@
 <img src="https://raw.githubusercontent.com/Citrus-CAF/manifest/m/citrus.png">
-=============
 
-Hey, I'm Citrus-CAF
+Howdy, We're Citrus-CAF
 ===================
 
 
@@ -29,7 +28,7 @@ Compiling the source!
 	lunch citrus_$device-userdebug
 	mka lemonade -j#
 
-Don't worry about the name! Yeah, we're not as sour as we sound! That gadget, over there, right in your arms, might die tasting citrus xD
+Don't worry about the name! We're not as sour as we sound! That gadget, over there, right in your arms, might die tasting citrus xD
 .
 .
 .
