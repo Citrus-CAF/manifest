@@ -89,6 +89,7 @@
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <project name="packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="ctr" />
   <project name="packages_apps_DUI" path="packages/apps/DUI" remote="ctr" />
+  <project name="packages_apps_DSPManager" path="packages/apps/DSPManager" remote="ctr" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="ctr" />
   <remove-project name="platform/packages/apps/Settings" />
@@ -103,6 +104,8 @@
   <project name="packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="ctr" />
   <remove-project name="platform/packages/apps/Messaging" />
   <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" />
+  <remove-project name="platform/packages/apps/MusicFX" />
+  <project name="packages_apps_MusicFX" path="packages/apps/MusicFX" remote="ctr" />
 
 
 <!-- Providers -->
