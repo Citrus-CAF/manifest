@@ -115,6 +115,8 @@
   <project name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ctr" />
+  <remove-project name="platform/packages/apps/SnapdragonCamera" />
+  <project name="packages_apps_Snap" path="packages/apps/Snap" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/Stk" />
   <project name="packages_apps_Stk" path="packages/apps/Stk" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
@@ -188,7 +190,6 @@
   <project name="LineageOS/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-14.1"/>
   <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-14.1"/>
   <project name="LineageOS/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_Screencast" path="packages/apps/Screencast" remote="github" revision="cm-14.1" />
 
 <!-- Substratum Interfacer -->
@@ -223,7 +224,6 @@
   <remove-project name="platform/packages/apps/CMFileManager"/>
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Launcher2"/>
-  <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/packages/apps/SnapdragonGallery" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc"/>
