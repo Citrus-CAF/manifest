@@ -3,20 +3,15 @@
 Howdy, We're Citrus-CAF
 ===================
 
-
 Getting Started
 ---------------
 
 To get started with Citrus-CAF, you'll need to get familiar with
 [Git and Repo](http://source.android.com/download/using-repo).
 
-
 To initialize your local repository for MSM8952 devices, use this command:
 
-
 	repo init -u git://github.com/Citrus-CAF/manifest.git -b n7x-8952 -m citrus-caf.xml
-
-
 
 Time to sync up our shit! [I love this part]:
 
@@ -24,9 +19,9 @@ Time to sync up our shit! [I love this part]:
 
 Compiling the source!
 ---------------------
-	. build/envsetup.sh
-	lunch citrus_$device-userdebug
-	mka lemonade -j#
+	. makelemonade.sh $device
+
+(You can use additional flags along with $device, i.e `. makelemonade.sh kenzo sync clean log shutdown` to sync before build, make clean and save log of build and shutdown after build complete.)
 
 Don't worry about the name! We're not as sour as we sound! That gadget, over there, right in your arms, might die tasting citrus xD
 .
