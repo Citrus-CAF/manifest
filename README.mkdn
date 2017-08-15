@@ -24,9 +24,9 @@ Time to sync up our shit! [I love this part]:
 
 Compiling the source!
 ---------------------
-	. build/envsetup.sh
-	lunch citrus_$device-userdebug
-	mka lemonade -j#
+	. makelemonade.sh $device
+
+(You can use additional flags along with $device, i.e `. makelemonade.sh kenzo sync clean log shutdown` to sync before build, make clean and save log of build and shutdown after build complete.)
 
 Don't worry about the name! We're not as sour as we sound! That gadget, over there, right in your arms, might die tasting citrus xD
 .
