@@ -149,6 +149,9 @@
   <project name="vendor_qcom_opensource_softap" path="vendor/qcom/opensource/softap" remote="ctr"/>
   <remove-project name="platform/vendor/qcom-opensource/location" />
   <project name="vendor_qcom-opensource_location" path="vendor/qcom/opensource/location" remote="ctr"  />
+  <project name="vendor_citrus" path="vendor/citrus" remote="ctr" revision="n7x" >
+    <copyfile src="build/makelemonade.sh" dest="makelemonade.sh" />
+  </project>
 
 <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
