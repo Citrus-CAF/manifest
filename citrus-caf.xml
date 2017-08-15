@@ -112,6 +112,8 @@
   <project name="packages_apps_Stk" path="packages/apps/Stk" remote="ctr" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="ctr" />
+  <remove-project name="platform/packages/apps/SnapdragonCamera" />
+  <project name="packages_apps_Snap" path="packages/apps/Snap" remote="ctr" />
 
 <!-- Providers -->
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -185,7 +187,6 @@
   <remove-project  name="platform/packages/apps/FMRadio" />
   <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_Screencast" path="packages/apps/Screencast" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-14.1" />
   <remove-project name="platform/external/fsck_msdos" />
   <project name="LineageOS/android_external_fsck_msdos" path="external/fsck_msdos" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_fuse" path="external/fuse" remote="github" revision="cm-14.1"/>
@@ -218,7 +219,6 @@
   <remove-project name="platform/hardware/qcom/display"/>
   <remove-project name="platform/hardware/qcom/gps"/>
   <remove-project name="platform/hardware/qcom/media"/>
-  <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/vendor/qcom-opensource/kernel/kernel-tests"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/prima"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
