@@ -5,6 +5,9 @@
            fetch="https://github.com/Citrus-CAF"
            revision="n7x" />
 
+  <remote  name="ctrs"
+           fetch="https://github.com/Citrus-Seeds" />
+
   <remote  name="github"
            fetch="https://github.com/" />
 
