@@ -160,12 +160,11 @@
   <project name="system_vold" path="system/vold" remote="ctr" revision="n7x"/>
 
 <!-- Vendor -->
-  <project name="vendor_citrus" path="vendor/citrus" remote="ctr" revision="n7x" />
-  <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
-  <project name="vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="ctr" revision="n7x" />
   <project name="vendor_citrus" path="vendor/citrus" remote="ctr" revision="n7x" >
     <copyfile src="build/makelemonade.sh" dest="makelemonade.sh" />
   </project>
+  <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
+  <project name="vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="ctr" revision="n7x" />
   
 <!-- End of Citrus-CAF Additions -->
 
