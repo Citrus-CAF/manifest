@@ -37,7 +37,7 @@
   <remove-project name="device/qcom/common" />
   <project name="device_qcom_common" path="device/qcom/common" remote="ctr" />
   <remove-project name="platform/libcore" />
-  <project name="libcore" path="libcore" remote="ctr" revision="n7x" />
+  <project name="libcore" path="libcore" remote="ctr" />
 
 <!-- External -->
   <remove-project name="platform/external/boringssl" />
@@ -144,14 +144,13 @@
   <project name="system_vold" path="system/vold" remote="ctr" />
 
 <!-- Vendor -->
-  <project name="vendor_citrus" path="vendor/citrus" remote="ctr" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <project name="vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="ctr"/>
   <remove-project name="platform/system/qcom" />
   <project name="vendor_qcom_opensource_softap" path="vendor/qcom/opensource/softap" remote="ctr"/>
   <remove-project name="platform/vendor/qcom-opensource/location" />
   <project name="vendor_qcom-opensource_location" path="vendor/qcom/opensource/location" remote="ctr"  />
-  <project name="vendor_citrus" path="vendor/citrus" remote="ctr" revision="n7x" >
+  <project name="vendor_citrus" path="vendor/citrus" remote="ctr" >
     <copyfile src="build/makelemonade.sh" dest="makelemonade.sh" />
   </project>
 
