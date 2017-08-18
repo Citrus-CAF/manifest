@@ -192,7 +192,7 @@
   <project name="LineageOS/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-14.1"/>
   <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-14.1"/>
   <project name="LineageOS/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_packages_apps_Screencast" path="packages/apps/Screencast" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="github" revision="cm-14.1" />
 
 <!-- Substratum Interfacer -->
   <project path="packages/apps/interfacer" name="interfacer" remote="ctr" revision="n-rootless" />
