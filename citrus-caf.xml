@@ -187,7 +187,7 @@
   <project name="LineageOS/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="github" revision="cm-14.1" />
   <remove-project  name="platform/packages/apps/FMRadio" />
   <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_packages_apps_Screencast" path="packages/apps/Screencast" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-14.1" />
   <remove-project name="platform/external/fsck_msdos" />
   <project name="LineageOS/android_external_fsck_msdos" path="external/fsck_msdos" remote="github" revision="cm-14.1" />
