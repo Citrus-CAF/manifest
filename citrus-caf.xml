@@ -46,10 +46,24 @@
   <remove-project name="platform/external/boringssl" />
   <project name="external_boringssl" path="external/boringssl" remote="ctr" revision="n7x" />
   <project name="external_DUtils" path="external/DUtils" remote="ctr" revision="n7x"/>
+  <remove-project name="platform/external/dnsmasq" />
+  <project name="external_dnsmasq" path="external/dnsmasq" remote="ctr" revision="n7x" />
   <remove-project name="platform/external/e2fsprogs" />
   <project name="external_e2fsprogs" path="external/e2fsprogs" remote="ctr" revision="n7x" />
+  <remove-project name="platform/external/libavc" />
+  <project name="external_libavc" path="external/libavc" remote="ctr" revision="n7x" />
+  <remove-project name="platform/external/libhevc" />
+  <project name="external_libhevc" path="external/libhevc" remote="ctr" revision="n7x" />
+  <remove-project name="platform/external/libmpeg2" />
+  <project name="external_libmpeg2" path="external/libmpeg2" remote="ctr" revision="n7x" />
+  <remove-project name="platform/external/sqlite" />
+  <project name="external_sqlite" path="external/sqlite" remote="ctr" revision="n7x" />
   <remove-project name="platform/external/skia" />
   <project name="external_skia" path="external/skia" remote="ctr"/>
+  <remove-project name="platform/external/sonivox" />
+  <project name="external_sonivox" path="external/sonivox" remote="ctr"/>
+  <remove-project name="platform/external/tremolo" />
+  <project name="external_tremolo" path="external/tremolo" remote="ctr" revision="n7x" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="ctr" revision="n7x" />
   <remove-project name="platform/external/zlib"  />
@@ -60,6 +74,8 @@
   <project name="frameworks_av" path="frameworks/av" remote="ctr"/>
   <remove-project name="platform/frameworks/base" />
   <project name="frameworks_base" path="frameworks/base" remote="ctr"/>
+  <remove-project name="platform/frameworks/minikin" />
+  <project name="frameworks_minikin" path="frameworks/minikin" remote="ctr"/>
   <remove-project name="platform/frameworks/native" />
   <project name="frameworks_native" path="frameworks/native" remote="ctr"/>
   <remove-project name="platform/frameworks/opt/telephony" />
@@ -103,12 +119,14 @@
   <project name="packages_apps_FMRadio" path="packages/apps/FMRadio" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <project name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="ctr" revision="n7x" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/Messaging" />
   <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/MusicFX" />
   <project name="packages_apps_MusicFX" path="packages/apps/MusicFX" remote="ctr" revision="n7x" />
-  <remove-project name="platform/packages/apps/Launcher3" />
-  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="ctr" revision="n7x" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <project name="packages_apps_Nfc" path="packages/apps/Nfc" remote="ctr" revision="n7x" />
   <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="ctr" revision="n7x" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <project name="packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="ctr" revision="n7x" />
@@ -171,8 +189,6 @@
   <project name="Flash-ROM/prebuilts_build-tools" path="prebuilts/build-tools" remote="github" revision="n7.1.2" clone-depth="1" />
   <remove-project name="platform/prebuilts/misc" />
   <project name="Flash-ROM/prebuilts_misc" path="prebuilts/misc" remote="github" revision="n7.1.2" clone-depth="1" />
-  <remove-project name="platform/external/sqlite" />
-  <project name="Flash-ROM/external_sqlite" path="external/sqlite" remote="github" revision="n7.1.2" />
 
 <!-- LineageOS -->
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="cm-14.1" />
@@ -217,6 +233,8 @@
   <remove-project name="device/sample"/>
   <remove-project name="kernel/lk" />
   <remove-project name="kernel/msm-3.10"/>
+  <remove-project name="platform/external/jhead"/>
+  <remove-project name="platform/external/libgdx"/>
   <remove-project name="platform/hardware/qcom/camera"/>
   <remove-project name="platform/hardware/qcom/gps"/>
   <remove-project name="platform/packages/apps/Calculator" />
