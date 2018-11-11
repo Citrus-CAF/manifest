@@ -213,6 +213,18 @@
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <project name="vendor_qcom-opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="ctr" />
 
+  <!-- Sync with clone-depth=1 to save space -->
+  <remove-project name="platform/cts" />
+  <project groups="cts,p-fs-release,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
+  <remove-project name="platform/external/autotest" />
+  <project groups="p-fs-release,pdk-fs" name="platform/external/autotest" path="external/autotest" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
+  <remove-project name="platform/external/linux-kselftest" />
+  <project groups="p-fs-release,pdk,vts" name="platform/external/linux-kselftest" path="external/linux-kselftest" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
+  <remove-project name="platform/frameworks/layoutlib" />
+  <project groups="p-fs-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/layoutlib" path="frameworks/layoutlib" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
+  <remove-project name="platform/vendor/nxp/opensource/frameworks" />
+  <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/commonsys/frameworks" revision="refs/heads/nfc.lnx.4.0.r5-rel" clone-depth="1" />
+
   <!-- Citrus-CAF end -->
 
   <!-- Misc repo's for additional compatibility -->
