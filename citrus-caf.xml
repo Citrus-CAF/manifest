@@ -5,7 +5,7 @@
            name="caf"
            review="codeaurora.org"/>
   <default remote="caf"
-           revision="refs/tags/LA.UM.7.3.r1-06100-sdm845.0"
+           revision="refs/tags/LA.UM.7.3.r1-06300-sdm845.0"
            sync-j="4" />
 
   <remote  name="ctr"
@@ -60,7 +60,7 @@
   <project name="device_qcom_common" path="device/qcom/common" remote="ctr"/>
   <remove-project name="device/qcom/sepolicy" />
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="ctr" />
-  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy-legacy" remote="ctr" branch="p9x-legacy" />
+  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy-legacy" remote="ctr" revision="p9x-legacy" />
 
   <!-- External -->
   <remove-project name="platform/external/ant-wireless/ant_native" />
@@ -215,13 +215,13 @@
 
   <!-- Sync with clone-depth=1 to save space -->
   <remove-project name="platform/cts" />
-  <project groups="cts,p-fs-release,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
+  <project groups="cts,mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
   <remove-project name="platform/external/autotest" />
-  <project groups="p-fs-release,pdk-fs" name="platform/external/autotest" path="external/autotest" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
+  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/external/autotest" path="external/autotest" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
   <remove-project name="platform/external/linux-kselftest" />
-  <project groups="p-fs-release,pdk,vts" name="platform/external/linux-kselftest" path="external/linux-kselftest" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
+  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/linux-kselftest" path="external/linux-kselftest" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
   <remove-project name="platform/frameworks/layoutlib" />
-  <project groups="p-fs-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/layoutlib" path="frameworks/layoutlib" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
+  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/layoutlib" path="frameworks/layoutlib" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
   <remove-project name="platform/vendor/nxp/opensource/frameworks" />
   <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/commonsys/frameworks" revision="refs/heads/nfc.lnx.4.0.r5-rel" clone-depth="1" />
 
