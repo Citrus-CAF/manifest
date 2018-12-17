@@ -210,6 +210,8 @@
   <project name="vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="ctr" />
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
   <project name="vendor_qcom-opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="ctr" />
+  <remove-project name="platform/vendor/qcom-opensource/power" />
+  <project name="vendor_qcom-opensource_power" path="vendor/qcom/opensource/power" remote="ctr" />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <project name="vendor_qcom-opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="ctr" />
 
