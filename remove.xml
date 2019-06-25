@@ -7,7 +7,6 @@
   <remove-project name="device/generic/common" />
   <remove-project name="device/generic/goldfish" />
   <remove-project name="device/generic/goldfish-opengl" />
-  <remove-project name="device/generic/lionhead" />
   <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
   <remove-project name="device/generic/mini-emulator-x86" />
@@ -24,7 +23,6 @@
   <remove-project name="device/google/taimen" />
   <remove-project name="device/google/vrservices" />
   <remove-project name="device/google/wahoo" />
-  <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/sample" />
   <remove-project name="kernel/msm-4.9" />
   <remove-project name="platform/hardware/qcom/audio" />
